@@ -33,11 +33,12 @@ int main(int argc, char* argv[]) {
     }
   }
   
-  // Collect youngest students
-  cout << "Youngest student(s) (age " << min_age << "):" << endl;
+  // Display youngest
+  cout << "Youngest student" << endl;
   for(int i = 0; i < N; i++) {
     if(a[i].get_age() == min_age) {
-      a[i].display();
+      cout << "Name: " << a[i].get_name() << endl;
+      cout << "Age: " << a[i].get_age() << endl;
     }
   }
   

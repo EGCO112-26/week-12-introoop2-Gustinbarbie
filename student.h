@@ -11,5 +11,6 @@ public:
   void set_age(int a) { age = a; }
   void print_name() { cout << name; }
   int get_age() { return age; }
+  string get_name() { return name; }
   void display() { cout << "Name: " << name << ", Age: " << age << endl; }
 };
